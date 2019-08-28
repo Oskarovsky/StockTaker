@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>StockTaker - Ethereum Dapp</title>
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+   <!-- page header -->
+    <div id="page-header" class="row">
+      <div align="center">
+        <img src="/images/background.png" alt="Logo StockTaker">
+      </div><!--./col-sm-12-->
+    </div><!--./row-->
+
+    <div class="container">
+      <!-- Create Task -->
+      <div class="card">
+        <!-- Create Tasks button -->
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="orange"><font face="Liberation Serif"><b>Adding New Product</b></font></h2>
+          </div>
+        </div>
+        <div class="row">
+          <form id="new-task" class="col-sm-12">
+            <div class="form-group">
+              <label for="task-content">Item</label>
+              <input id="task-content" type="text" class="form-control"></input>
+            </div>
+            <div class="form-group">
+                <label for="task-author">Owner</label>
+                <input id="task-author" type="text" class="form-control"></input>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div><!--./row-->
+      </div><!--./card-->
+
+      <!-- Tasks List -->
+      <div class="card">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="orange"><font face="Liberation Serif"><b>List of all products</b></font></h2>
+          </div><!--./col-sm-12-->
+        </div><!--./row-->
+        <div class="row">
+          <div class="col-sm-12">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Date</th>
+                  <th>Item</th>
+                  <th>Owner</th>
+                  <th>Out</th>
+                  <th>Date Complete</th>
+                </tr>
+              </thead>
+              <tbody id="tasks">
+                <!-- items here -->
+              </tbody>
+            </table>
+          </div><!--./col-sm-12-->
+        </div><!--./row-->
+      </div><!--./card-->
+    </div>
+
+    <footer>
+
+      <p class="text-center">
+        Copyright 2019 <a href="http://www.oskarro.com" title="StockTaker App">Oskar Słyk</a>, Praca inżynierska - Wykorzystanie rozproszonej bazy danych typu blockchain w systemie inwentaryzacyjnym.
+      <br />
+        Opiekun naukowy: dr. inż. Grzegorz Sarwas
+      <br />
+      <br />
+        <a href="http://www.oskarro.com"><img src="/images/oskarro.png" alt="Oskarro logo" width="40px" height="40px"> </a>
+      <br />
+          <font face="Liberation Serif">www.oskarro.com</font>
+      </p>
+    </footer>
+
+    <script src="dist/bundle.js"></script>
+  </body>
+</html>
