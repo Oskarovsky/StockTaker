@@ -1,0 +1,11 @@
+Open terminal from mian StockTaker folder - 3 times:
+ganache cli
+npm run dev-back
+npm run dev-front
+
+--> npm run dev-back
+nodemon - pozwala automatycznie uruchamiać kod po każdej zmianie w kodzie (nie trzeba za każdym razem przerywać)
+
+
+truffle init	- rozpoczęcie projektu w konsoli, opisać trochę truffle
+truffle create contract StockTaker - tworzenie kontraktu 
