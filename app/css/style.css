@@ -1,0 +1,107 @@
+/**
+ * CSS of ToDo App
+ *
+ * Blue: #29b6f6
+ * Orange: #ff9800
+ */
+
+/**
+ * HTML elements
+ */
+body {
+  /*background-color: #f2f2f2;*/
+  background-image: url("../images/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background-color: #404040;
+  color: white;
+  padding: 35px 15px;
+  padding-bottom: 5px;
+}
+
+footer a {
+ color: orange;
+ font-weight: bold;
+}
+
+/**
+ * Generic Styles
+ */
+
+.orange {
+  color: #002b80;
+}
+
+/* Inspiration: Google material design */
+.card {
+  background-color: white;
+  border-radius: 4px;
+  padding: 0 15px 15px 15px;
+  margin-bottom: 35px;
+  webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+                     0 1px 5px 0 rgba(0,0,0,0.12),
+                     0 3px 1px -2px rgba(0,0,0,0.2);
+
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+              0 1px 5px 0 rgba(0,0,0,0.12),
+              0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.item-done {
+  text-decoration: line-through;
+  background-color: #eee;
+}
+
+.btn-primary {
+  background-color: #003cb3;;
+  border-color: #003399
+}
+
+.btn-primary:hover {
+  background-color: #004de6;
+  border-color: #0044cc;
+}
+
+.btn-primary:active {
+  background-color: #004de6;
+  border-color: #3377ff;
+}
+
+.btn-primary:focus {
+  background-color: #004de6 !important;
+  border-color: #3377ff;
+}
+
+/**
+ * Components
+ */
+
+/* By default the message wrapper is hidden
+ * It is displayed only when there is a message
+ * to be shown
+ */
+
+#message-wrapper {
+  display: none;
+}
+
+#page-header {
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 48%;
+  margin-bottom: 25px;
+  background: #ECECEC;
+  color: white;
+  border-bottom: none;
+  webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+                     0 1px 5px 0 rgba(0,0,0,0.12),
+                     0 3px 1px -2px rgba(0,0,0,0.2);
+
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+              0 1px 5px 0 rgba(0,0,0,0.12),
+              0 3px 1px -2px rgba(0,0,0,0.2);
+}
